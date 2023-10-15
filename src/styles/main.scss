@@ -1,5 +1,8 @@
+$color-primary: #d2c1b0;
+$color-secondary: #80411e;
+
 body {
-    background-color: #d2c1b0;
+    background-color: $color-primary;
 }
 
 #interiorPic {
@@ -12,13 +15,13 @@ body {
 }
 
 #icon {
-    color: #80411e;
+    color: $color-secondary;
 }
 
 
 #feedbackCustom {
-    background-color: #80411e;
-    border-radius: 20px;
+    background-color: $color-secondary;
+    border-radius: 10px;
 }
 
 #textarea {
@@ -26,13 +29,21 @@ body {
 }
 
 #submit {
-    background-color: #d2c1b0;
+    background-color: $color-primary;
 }
 
 .modal-header {
-    background-color: #80411e;
+    background-color: $color-secondary;
 }
 
 #menu {
     margin-bottom: 50px;
+}
+
+.card-body {
+    background-color: #e4bc84;
+}
+
+#quote {
+    background-color: #decaad;
 }
